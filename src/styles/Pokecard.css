@@ -1,0 +1,12 @@
+.pokecard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.winningXp {
+    background-color: rgba(91, 206, 62, 0.705);
+}
+
+.losingXP {
+    background-color: rgba(206, 62, 62, 0.705);
+}
