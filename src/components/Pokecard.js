@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 const Pokecard = ({ card }) => {
     const baseURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${card.id}.png`
     return (
-        <Col sm={4} md={3} key={card.id} style={{ marginBottom: '5px' }}>
+        <Col className="pokecard" sm={4} md={3} key={card.id} style={{ marginBottom: '5px' }}>
             <Card style={{ width: '10rem', height: '18rem' }}>
                 <Card.Img variant="top" src={baseURL} />
                 <Card.Body>
